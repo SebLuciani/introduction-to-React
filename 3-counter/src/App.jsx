@@ -9,7 +9,7 @@ function App() {
 
   const addValue = () => {
     setCounter(counter+1)       // If I add multiple repetitions of setCounter it will only do one (crea un nuevo state entonces el resto no se reproduce o algo así)
-    setCounter((prevCounter) => prevCounter + 1)
+    setCounter((prevCounter) => prevCounter + 1)    // Now it forces the program to keep the previous value to execute the next one
   }
 
   const removeValue = () => {
