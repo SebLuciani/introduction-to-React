@@ -4,7 +4,7 @@ In this course I will follow the following React course : https://www.youtube.co
 From this github repo : https://github.com/hiteshchoudhary/react-english/tree/main
 
 
-To preview a page :
+To build a page :
 
     - Firstly I have to create the vite project by using the command npm create vite@latest
     - Then install the node_modules by hitting the following command : npm i 
